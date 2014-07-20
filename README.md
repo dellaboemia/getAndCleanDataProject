@@ -29,72 +29,72 @@ See below for the full list of measurement types.
     - STANDING
     - LAYING
 - measurement:
-    -time_body_accelerometer-mean-X
-    -time_body_accelerometer-mean-Y
-    -time_body_accelerometer-mean-Z
-    -time_body_accelerometer-standard_deviation-X
-    -time_body_accelerometer-standard_deviation-Y
-    -time_body_accelerometer-standard_deviation-Z
-    -time_gravity_accelerometer-mean-X
-    -time_gravity_accelerometer-mean-Y
-    -time_gravity_accelerometer-mean-Z
-    -time_gravity_accelerometer-standard_deviation-X
-    -time_gravity_accelerometer-standard_deviation-Y
-    -time_gravity_accelerometer-standard_deviation-Z
-    -time_body_accelerometer_jerk-mean-X
-    -time_body_accelerometer_jerk-mean-Y
-    -time_body_accelerometer_jerk-mean-Z
-    -time_body_accelerometer_jerk-standard_deviation-X
-    -time_body_accelerometer_jerk-standard_deviation-Y
-    -time_body_accelerometer_jerk-standard_deviation-Z
-    -time_body_gyroscope-mean-X
-    -time_body_gyroscope-mean-Y
-    -time_body_gyroscope-mean-Z
-    -time_body_gyroscope-standard_deviation-X
-    -time_body_gyroscope-standard_deviation-Y
-    -time_body_gyroscope-standard_deviation-Z
-    -time_body_gyroscope_jerk-mean-X
-    -time_body_gyroscope_jerk-mean-Y
-    -time_body_gyroscope_jerk-mean-Z
-    -time_body_gyroscope_jerk-standard_deviation-X
-    -time_body_gyroscope_jerk-standard_deviation-Y
-    -time_body_gyroscope_jerk-standard_deviation-Z
-    -time_body_accelerometer_magnitude-mean
-    -time_body_accelerometer_magnitude-standard_deviation
-    -time_gravity_accelerometer_magnitude-mean
-    -time_gravity_accelerometer_magnitude-standard_deviation
-    -time_body_accelerometer_jerk_magnitude-mean
-    -time_body_accelerometer_jerk_magnitude-standard_deviation
-    -time_body_gyroscope_magnitude-mean
-    -time_body_gyroscope_magnitude-standard_deviation
-    -time_body_gyroscope_jerk_magnitude-mean
-    -time_body_gyroscope_jerk_magnitude-standard_deviation
-    -frequency_body_accelerometer-mean-X
-    -frequency_body_accelerometer-mean-Y
-    -frequency_body_accelerometer-mean-Z
-    -frequency_body_accelerometer-standard_deviation-X
-    -frequency_body_accelerometer-standard_deviation-Y
-    -frequency_body_accelerometer-standard_deviation-Z
-    -frequency_body_accelerometer_jerk-mean-X
-    -frequency_body_accelerometer_jerk-mean-Y
-    -frequency_body_accelerometer_jerk-mean-Z
-    -frequency_body_accelerometer_jerk-standard_deviation-X
-    -frequency_body_accelerometer_jerk-standard_deviation-Y
-    -frequency_body_accelerometer_jerk-standard_deviation-Z
-    -frequency_body_gyroscope-mean-X
-    -frequency_body_gyroscope-mean-Y
-    -frequency_body_gyroscope-mean-Z
-    -frequency_body_gyroscope-standard_deviation-X
-    -frequency_body_gyroscope-standard_deviation-Y
-    -frequency_body_gyroscope-standard_deviation-Z
-    -frequency_body_accelerometer_magnitude-mean
-    -frequency_body_accelerometer_magnitude-standard_deviation
-    -frequency_body_accelerometer_jerk_magnitude-mean
-    -frequency_body_accelerometer_jerk_magnitude-standard_deviation
-    -frequency_body_gyroscope_magnitude-mean
-    -frequency_body_gyroscope_magnitude-standard_deviation
-    -frequency_body_gyroscope_jerk_magnitude-mean
-    -frequency_body_gyroscope_jerk_magnitude-standard_deviation
+    - time_body_accelerometer-mean-X
+    - time_body_accelerometer-mean-Y
+    - time_body_accelerometer-mean-Z
+    - time_body_accelerometer-standard_deviation-X
+    - time_body_accelerometer-standard_deviation-Y
+    - time_body_accelerometer-standard_deviation-Z
+    - time_gravity_accelerometer-mean-X
+    - time_gravity_accelerometer-mean-Y
+    - time_gravity_accelerometer-mean-Z
+    - time_gravity_accelerometer-standard_deviation-X
+    - time_gravity_accelerometer-standard_deviation-Y
+    - time_gravity_accelerometer-standard_deviation-Z
+    - time_body_accelerometer_jerk-mean-X
+    - time_body_accelerometer_jerk-mean-Y
+    - time_body_accelerometer_jerk-mean-Z
+    - time_body_accelerometer_jerk-standard_deviation-X
+    - time_body_accelerometer_jerk-standard_deviation-Y
+    - time_body_accelerometer_jerk-standard_deviation-Z
+    - time_body_gyroscope-mean-X
+    - time_body_gyroscope-mean-Y
+    - time_body_gyroscope-mean-Z
+    - time_body_gyroscope-standard_deviation-X
+    - time_body_gyroscope-standard_deviation-Y
+    - time_body_gyroscope-standard_deviation-Z
+    - time_body_gyroscope_jerk-mean-X
+    - time_body_gyroscope_jerk-mean-Y
+    - time_body_gyroscope_jerk-mean-Z
+    - time_body_gyroscope_jerk-standard_deviation-X
+    - time_body_gyroscope_jerk-standard_deviation-Y
+    - time_body_gyroscope_jerk-standard_deviation-Z
+    - time_body_accelerometer_magnitude-mean
+    - time_body_accelerometer_magnitude-standard_deviation
+    - time_gravity_accelerometer_magnitude-mean
+    - time_gravity_accelerometer_magnitude-standard_deviation
+    - time_body_accelerometer_jerk_magnitude-mean
+    - time_body_accelerometer_jerk_magnitude-standard_deviation
+    - time_body_gyroscope_magnitude-mean
+    - time_body_gyroscope_magnitude-standard_deviation
+    - time_body_gyroscope_jerk_magnitude-mean
+    - time_body_gyroscope_jerk_magnitude-standard_deviation
+    - frequency_body_accelerometer-mean-X
+    - frequency_body_accelerometer-mean-Y
+    - frequency_body_accelerometer-mean-Z
+    - frequency_body_accelerometer-standard_deviation-X
+    - frequency_body_accelerometer-standard_deviation-Y
+    - frequency_body_accelerometer-standard_deviation-Z
+    - frequency_body_accelerometer_jerk-mean-X
+    - frequency_body_accelerometer_jerk-mean-Y
+    - frequency_body_accelerometer_jerk-mean-Z
+    - frequency_body_accelerometer_jerk-standard_deviation-X
+    - frequency_body_accelerometer_jerk-standard_deviation-Y
+    - frequency_body_accelerometer_jerk-standard_deviation-Z
+    - frequency_body_gyroscope-mean-X
+    - frequency_body_gyroscope-mean-Y
+    - frequency_body_gyroscope-mean-Z
+    - frequency_body_gyroscope-standard_deviation-X
+    - frequency_body_gyroscope-standard_deviation-Y
+    - frequency_body_gyroscope-standard_deviation-Z
+    - frequency_body_accelerometer_magnitude-mean
+    - frequency_body_accelerometer_magnitude-standard_deviation
+    - frequency_body_accelerometer_jerk_magnitude-mean
+    - frequency_body_accelerometer_jerk_magnitude-standard_deviation
+    - frequency_body_gyroscope_magnitude-mean
+    - frequency_body_gyroscope_magnitude-standard_deviation
+    - frequency_body_gyroscope_jerk_magnitude-mean
+    - frequency_body_gyroscope_jerk_magnitude-standard_deviation
 
 ### How the script works:
 it does some stuff
