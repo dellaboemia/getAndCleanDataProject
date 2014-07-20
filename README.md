@@ -5,6 +5,19 @@ Cleaning Data Course Project. This script assumes that you have already download
 and unzipped the UCI HAR data (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 as is, preserving the directory structure in that archive.
 
+### Tidiness
+I've chosen to tidy my data by making it long. This means there are only 4 columns 
+in my data. Depending on the analysis task, this may or may not be ideal, but I 
+find this version easy to understand and useful for certain types of analysis. 
+
+When I extracted just the mean/standard deviations from the original data, I found 
+a data set with 66 measurement variables along with the subject ID and the 
+activity classification label, for a total of 68 variables in all. By gathering 
+the columns, I narrowed and lengthened the data set: the tidy version has just 
+4 columns but 11,880 rows. This makes sense since there are 30 subjects in all 
+and 6 activity types (and every subject was observed doing every activity). 
+66 * 30 * 6 = 11,880.
+
 ### Codebook
 Note: All of the measurement variables have descriptive names with the pattern: 
 *domain_signalType_device(_jerk)(_magnitude)-aggregation(-axis)* where:
