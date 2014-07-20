@@ -11,7 +11,6 @@ Note: All of the measurement variables have descriptive names with the pattern:
 
 - subject: Subject ID
 - label: The labeled activity, as classified by human observers. This is one of "WALKING", "WALKING_UPSTAIRS..."
--
 
 
 # How the script works:
