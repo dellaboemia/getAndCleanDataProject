@@ -95,6 +95,7 @@ See below for the full list of measurement types.
     - frequency_body_gyroscope_magnitude-standard_deviation
     - frequency_body_gyroscope_jerk_magnitude-mean
     - frequency_body_gyroscope_jerk_magnitude-standard_deviation
+- mean: the mean of the measurement for the given subject and activity label
 
 ### How the script works:
 it does some stuff
