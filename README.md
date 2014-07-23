@@ -28,7 +28,7 @@ and 6 activity types (and every subject was observed doing every activity).
 ### How the script works:
 The script makes use of the `magrittr` package in order to make the code more 
 concise and easier to read. Instead of storing data in temporary variables in the 
-course of processing, I use %>% to pass the output of one function onto the next 
+course of processing, I use `%>%` to pass the output of one function onto the next 
 function. 
 
 Both the training and test data are stored in three separate text files: a subject 
@@ -37,7 +37,7 @@ the "X" file which has the 561 measurements associated with each row, and finall
 the "Y" file which has the activity classification (hand-coded). All files use a 
 standard newline for the end of each row, and the "X" file uses whitespace as a delimiter 
 between columns. Further, all files are in the same order, so combining them requires 
-cbinding them without re-ordering any of the files. The function c_data does that, 
+rbinding them without re-ordering any of the files. The function c_data does that, 
 see the comments in run_analysis.R for more details.
 
 After reading and cbinding the train and test data, the script combines them into one 
@@ -60,17 +60,17 @@ activity, using group_by() and summarise() from the `dplyr` package.
 
 ### Codebook
 Note: All of the measurement variables have descriptive names with the pattern: 
-*domain_signalType_device(_jerk)(_magnitude)-aggregation(-axis)* where:
-- domain: one of "time" or "frequency"
-- signalType: "body" or "gravity," as separated via filtering of the signals
-- device: "accelerometer" or "gyroscope"
-- aggregation: "mean" or "standard deviation"
+**domain_signalType_device(_jerk)(_magnitude)-aggregation(-axis)** where:
+- **domain**: one of "time" or "frequency"
+- **signalType**: "body" or "gravity," as separated via filtering of the signals
+- **device**: "accelerometer" or "gyroscope"
+- **aggregation**: "mean" or "standard deviation"
 
-When "_jerk" appears as part of the name, this indicates the variable is the derivative 
-of velocity with respect to time (aka acceleration). The "-axis" at the end will be 
-one of "-X" "-Y" or "-Z," indicating the X, Y, or Z axis respectively. For some 
+When **_jerk** appears as part of the name, this indicates the variable is the derivative 
+of velocity with respect to time (aka acceleration). The **-axis** at the end will be 
+one of **-X** **-Y** or **-Z** indicating the X, Y, or Z axis respectively. For some 
 measurements, the magnitude of the signal was calculated, in those cases the 
-variable name will not have an "-axis" suffix, but instead will say "_magnitude." 
+variable name will not have an **-axis** suffix, but instead will say **_magnitude.**
 See below for the full list of measurement types.
 
 - subject: Subject ID
